@@ -113,13 +113,3 @@ print()
 print(help(str))
 #To know specifically about one funtions say lower() :
 print(help(str.lower))
-
-
-
-
-
-
-
-
-
-
