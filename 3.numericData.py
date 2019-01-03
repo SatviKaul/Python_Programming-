@@ -55,3 +55,21 @@ print(a!=b)
 print(a>=b)
 print(a<b)
 print()
+
+#TYPE CASTING (EXPLICIT):
+#Say giving 2 numbers in the form of strings
+num1 = "150"
+num2 = "300"
+#Now num1 + num2 will concatinate the strings :
+print(num1 + num2)
+#So to treat them as numbers we type caste them to integers:
+num1 = int(num1)
+num2 = int(num2)
+print(num1 + num2)
+print()
+
+#LARGE NUMBERS
+#Python an easly handle large numbers without using strings
+#Unlike C++ and JAVA it has no limit to the value of integers
+num = 10984656378290865344720020081872553663883920020282761
+print(type(num))
