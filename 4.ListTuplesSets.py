@@ -9,3 +9,4 @@ print()
 
 #To access the ith element of list subjects : subjects[i]
 print(subjects[0])
+print(subjects[1])
