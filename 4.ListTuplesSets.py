@@ -12,3 +12,4 @@ print(subjects[0])
 print(subjects[1])
 print(subjects[2])
 print(subjects[3])
+#So for list of n elements : the range of index given to the list lies between 0 and n-1
