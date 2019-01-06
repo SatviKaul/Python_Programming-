@@ -14,3 +14,4 @@ print(subjects[2])
 print(subjects[3])
 print()
 #For C++ and JAVA the range of index given to the list lies between 0 and n-1.
+#While in Python we can also give negetive index:
