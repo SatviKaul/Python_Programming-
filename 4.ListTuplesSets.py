@@ -19,3 +19,5 @@ print()
 print(subjects[-1]) #Last element
 print(subjects[-2]) #Second last
 print(subjects[-3]) #Third Last
+print(subjects[-4]) #Forth last or 0th element in this case.
+print()
