@@ -16,3 +16,4 @@ print()
 #For C++ and JAVA the range of index given to the list lies between 0 and n-1.
 #While in Python we can also give negetive index:
 #To access the last element we use -1.
+print(subjects[-1]) #Last element
