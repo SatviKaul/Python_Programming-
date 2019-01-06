@@ -17,3 +17,4 @@ print()
 #While in Python we can also give negetive index:
 #To access the last element we use -1.
 print(subjects[-1]) #Last element
+print(subjects[-2]) #Second last
