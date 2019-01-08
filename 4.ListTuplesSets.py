@@ -21,3 +21,10 @@ print(subjects[-2]) #Second last
 print(subjects[-3]) #Third Last
 print(subjects[-4]) #Forth last or 0th element in this case.
 print()
+
+#SLICING
+#We can also access a range of values at index between range i to j (including i and excluding j)
+print(subjects[0:2])
+print(subjects[1:]) #Assumes j = length of list , if not metioned
+print(subjects[:3]) #Assumes i = 0 , if not mentioned
+print()
