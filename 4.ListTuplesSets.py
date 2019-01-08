@@ -28,3 +28,9 @@ print(subjects[0:2])
 print(subjects[1:]) #Assumes j = length of list , if not metioned
 print(subjects[:3]) #Assumes i = 0 , if not mentioned
 print()
+
+#TO ADD AN ITEM TO THE LIST
+#Use append() method to add an item at the end position.
+subjects.append("Chemistry")
+print(subjects[0:])
+print()
