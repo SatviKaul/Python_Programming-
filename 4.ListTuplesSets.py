@@ -65,3 +65,13 @@ print()
 subjects.reverse()
 print(subjects)
 print()
+
+#SORTING
+#In Dictionary order : sort() method (for a string type list)
+subjects.sort()
+print(subjects)
+print()
+#Sort method when applied to a list of numbers : sorts in asscending order.
+numbers = [3,7,2,8,9,1,0]
+numbers.sort()
+print(numbers)
