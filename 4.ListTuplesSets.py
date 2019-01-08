@@ -34,3 +34,15 @@ print()
 subjects.append("Chemistry")
 print(subjects[0:])
 print()
+#To insert at a specific location : insert() method
+#insert() takes 2 arrguments : 1.Location 2.Value to be inserted
+subjects.insert(2 , "Geography")
+print(subjects) #We can print the complete List by just giving its Name to the print function.
+print()
+#We can also use insert to insert another list in a list:
+fruits = ["Apple" , "Banana" , "Mango"]
+fruits2 = ["Kiwi" , "Orange"]
+fruits.insert(1 , fruits2)
+print(fruits)
+print(fruits[1])
+print()
