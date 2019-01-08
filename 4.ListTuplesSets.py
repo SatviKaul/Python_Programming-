@@ -46,3 +46,7 @@ fruits.insert(1 , fruits2)
 print(fruits)
 print(fruits[1])
 print()
+#Now if want all the values of a list to be appened in another list : extend() method
+fruits.extend(fruits2)
+print(fruits)
+print()
