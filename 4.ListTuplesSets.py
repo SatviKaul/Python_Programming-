@@ -75,3 +75,9 @@ print()
 numbers = [3,7,2,8,9,1,0]
 numbers.sort()
 print(numbers)
+#To sort a number list in decending order : pass a reverse arrgument.
+numbers.sort(reverse = True)
+print(numbers)
+print()
+subjects.sort(reverse = True)
+print(subjects)
