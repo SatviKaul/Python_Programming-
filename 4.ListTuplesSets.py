@@ -60,3 +60,8 @@ print(subjects)
 subjects.pop()
 print(subjects)
 print()
+
+#REVERSING A LIST : reverse() method.
+subjects.reverse()
+print(subjects)
+print()
