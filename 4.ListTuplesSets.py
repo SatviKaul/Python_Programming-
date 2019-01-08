@@ -50,3 +50,13 @@ print()
 fruits.extend(fruits2)
 print(fruits)
 print()
+
+#REMOVE VALUE
+#To remove a value : remove() method.
+print(subjects)
+subjects.remove("Geography")
+print(subjects)
+#Use pop() method to remove the last value of the list.
+subjects.pop()
+print(subjects)
+print()
