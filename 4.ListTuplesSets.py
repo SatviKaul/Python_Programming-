@@ -123,3 +123,6 @@ print() #Not a part of for loop (read below for explaination)
 #Now if want the values as well as the we use enumerate() function
 #enumerate() function takes list name as a parameter and returns index and values:
 #So for 2 values returned we have to take 2 variables.
+for i,a in enumerate(subjects):
+    print(i,a)
+print()
