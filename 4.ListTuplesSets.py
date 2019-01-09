@@ -119,3 +119,7 @@ print() #Not a part of for loop (read below for explaination)
 #Also here important point to be noted is we use indentation
 #We do not need to put {} these brackets in Python
 #All the code that is under the for loop statment with a <tab> is a part of the loop.
+
+#Now if want the values as well as the we use enumerate() function
+#enumerate() function takes list name as a parameter and returns index and values:
+#So for 2 values returned we have to take 2 variables.
