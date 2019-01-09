@@ -126,3 +126,7 @@ print() #Not a part of for loop (read below for explaination)
 for i,a in enumerate(subjects):
     print(i,a)
 print()
+#Also we can pass another argument to set the starting index of the numbering:
+for i,a in enumerate(subjects , start = 1):
+    print(i,a)
+print()
