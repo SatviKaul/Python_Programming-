@@ -104,3 +104,18 @@ print()
 #But this gives an error if the value does not exits in the list.
 print(subjects)
 print(subjects.index("History"))
+#To avoid the error : we need to check wheather the value exits in the list or not.
+#To do this we use a simple command : Value in listName : This returns a boolean value.
+print("Music" in subjects)
+print("Maths" in subjects)
+print()
+
+#Now to Iterate to all values of a list : use a for LOOP :
+for i in subjects:
+    print(i)
+print() #Not a part of for loop (read below for explaination)
+#Here we use i as an iterator (Not defined before but can be used in this way).
+#So using i we access all the values of the list.
+#Also here important point to be noted is we use indentation
+#We do not need to put {} these brackets in Python
+#All the code that is under the for loop statment with a <tab> is a part of the loop.
