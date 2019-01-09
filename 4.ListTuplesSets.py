@@ -81,3 +81,8 @@ print(numbers)
 print()
 subjects.sort(reverse = True)
 print(subjects)
+#Here sort() method does the sorting inplace (Does not return anything).
+#But if we don't want inplace : sorted() function : Arrgument->ListName
+subjects2=sorted(subjects)
+print(subjects2)
+print()
