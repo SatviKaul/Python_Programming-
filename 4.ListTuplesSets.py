@@ -130,3 +130,9 @@ print()
 for i,a in enumerate(subjects , start = 1):
     print(i,a)
 print()
+
+#GETTING STRING VERSION OF A COMPLETE LIST OF STRINGS:
+#Use the join() method it is used on a string that is used as a token.
+#Syntax : "Token".join(ListName) : Returns a string.
+subjectsSrting = ", ".join(subjects)
+print(subjectsSrting)
