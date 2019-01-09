@@ -86,3 +86,15 @@ print(subjects)
 subjects2=sorted(subjects)
 print(subjects2)
 print()
+
+#SIMPLE OPERATIONS ON A NUMBERS LIST:
+#min() and max() to get minimum and maximum number.
+#min() and max() also works for a list of strings.
+#sum() to get the sum of all numbers of the list (Error for list of string)
+print(min(numbers))
+print(max(numbers))
+print(sum(numbers))
+print()
+print(min(subjects)) #Minmum as dictionary order.
+print(max(subjects)) #Maximum as dictionary order.
+print()
