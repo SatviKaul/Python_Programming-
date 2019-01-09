@@ -98,3 +98,9 @@ print()
 print(min(subjects)) #Minmum as dictionary order.
 print(max(subjects)) #Maximum as dictionary order.
 print()
+
+#SEARCHING
+#To find the index of a certain value in out list : index() method.
+#But this gives an error if the value does not exits in the list.
+print(subjects)
+print(subjects.index("History"))
