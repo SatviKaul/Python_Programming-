@@ -136,3 +136,71 @@ print()
 #Syntax : "Token".join(ListName) : Returns a string.
 subjectsSrting = ", ".join(subjects)
 print(subjectsSrting)
+
+#MAKING LIST USING A STRING:
+#Use split() method to form a list using a string.
+#It is used on a string and returns a list.
+#Takes an argument : the sub-string about which we have to split the string.
+sampleString = "Apple . Orange . Mango . Banana"
+print(sampleString)
+sampleList = sampleString.split(" . ");
+print(sampleList);
+print()
+
+#COPYING A LIST TO ANOTHER:
+subjects2 = subjects
+#Now Any change made in the orignal list are reflected in the copied list.
+subjects[0] = "Economics"
+print(subjects)
+print(subjects2)
+print()
+
+
+
+#TUPLES
+#They are similar to lists , only one differnce:
+#There values once assinged can't be changed : Immutable.
+sampleTuple = (1,5,7,3,8,9)
+print("Tuple:")
+print(sampleTuple)
+print()
+
+
+
+#SETS
+#They are unordered and have no duplicates.
+#Also {} these are used to initialise them.
+mobileBrands = {"Samsung" , "Nokia" , "Apple" , "MI"}
+print("Set:")
+print(mobileBrands)
+#Now on running this code mupliple times we get outputs in differenet order (unorded).
+#Use of Sets:
+#This statment returns true or false : maths in subjects
+#This can be done on all lists , tuples and sets. But it is very efficent in sets.
+print("MI" in mobileBrands)
+
+#INTERSECTION , UNION AND DIFFERENCE
+#To find out what is common in the 2 sets : intersection() method.
+mobileBrands2 = {"OnePlus" , "MI" , "Honor" , "Apple"}
+print(mobileBrands.intersection(mobileBrands2))
+#Now for set1 - set2 : set1.difference(set2)
+print(mobileBrands.difference(mobileBrands2))
+print(mobileBrands2.difference(mobileBrands))
+#For union : union() method
+print(mobileBrands.union(mobileBrands2))
+print()
+
+
+#CREATING EMPTY LISTS , TUPLES AND SETS:
+
+#Empty list:
+emptyList = []
+emptyList2 = list() #list Class
+
+#Empty Tuples:
+emptyTuples = ()
+emptyTuples2 = tuple() #tuple class
+
+#Empty Set:
+emptySet = {} #WRONG : This creates an empty dictionary : Discussed later.
+emptySet2 = set() #Right : using set class.
