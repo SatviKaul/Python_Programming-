@@ -26,3 +26,17 @@ print(student)
 print()
 
 #Now to ADD/UPDATE MULTIPLE VALUES at once : update() method.
+student.update({"name" : "Abhay" , "age" : 22 , "gender" : "Male"})
+print(student)
+print()
+
+#DELETING A KEY : del keyword. (del is a keyword not a method so syntax is different):
+del student["gender"]; #To delet the key-value pair with key = "age".
+print(student)
+print()
+#Also we can use the pop() method , which also returns the value of the deleted key-value pair:
+a = student.pop('age')
+print(a)
+print()
+
+#LENGTH of the dictionary : len() function.
