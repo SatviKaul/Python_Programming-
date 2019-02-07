@@ -40,3 +40,15 @@ print(a)
 print()
 
 #LENGTH of the dictionary : len() function.
+print("Length of dictionary is : ")
+print(len(student))
+print()
+#To print only the keys : key() method , this returns all the keys.
+print(student.keys())
+print()
+#To print only the values : value() method , this returns all the values.
+print(student.values())
+print()
+#Now to get all the ket-value pairs in the form of pairs: items() method(We be also used in LOOPS)
+print(student.items())
+print()
