@@ -52,3 +52,21 @@ print()
 #Now to get all the ket-value pairs in the form of pairs: items() method(We be also used in LOOPS)
 print(student.items())
 print()
+
+#ITERATING : LOOPS
+#If we simple iterate over the dictionary as in our list:
+#We get all the keys.
+for i in student:
+    print(i)
+print()
+#Now to get the key-value pairs , we use items() method:
+for i in student.items():
+    print(i)
+#Remeber here that items() is a method that works only on a dictionary name and not on the iterator i.
+print()
+#But here we use only 1 variable i , so it stores the pair of key and value:
+#We can also seperatly store key and value(can help in better manipulation)
+#So we use 2 variables : i,j
+for i,j in student.items():
+    print(i,j)
+print()
