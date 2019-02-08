@@ -83,3 +83,56 @@ if a==4 or b==3:
 if not a==4:
     print("Statment 4")
 print()
+
+#is OPERATOR : To check weather 2 objects are actually same or not.
+#So we create 2 lists:
+a = [1,2,3]
+b = [1,2,3]
+print(a==b)
+#Here a and b have the same values , but are not the same object.
+print(a is b)
+#We can also check the ids of a and b , which are not equal:
+print(id(a))
+print(id(b))
+print()
+#So here the is operator gives False.
+#Now we create another list c:
+c = a
+print(id(a))
+print(id(c))
+print(a==c)
+print(a is c)
+#Also changes made in a or c are reflected in both as they are actually the same object , not only the value.
+a[0] = 5
+print(a)
+print(c)
+c[2] = 7
+print(a)
+print(c)
+print()
+
+#False VALUES:
+#1.Boolean False:
+if False:
+    print('Evaluated True')
+else:
+    print('Evaluated False')
+
+#2.'None' Keyword:
+if None:
+    print('Evaluated True')
+else:
+    print('Evaluated False')
+
+#3.Zero of any numeric Type:
+if 0:
+    print('Evaluated True')
+else:
+    print('Evaluated False')
+
+#4.Empty sequence/mapping -> '()' , '[]' , '' , '{}':
+if {}:
+    print('Evaluated True')
+else:
+    print('Evaluated False')
+print()
