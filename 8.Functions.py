@@ -61,3 +61,32 @@ print()
 #Now to pass list and dictionary we need to unpack the items in them, to unpack use * and ** respectivly:
 func5(*subject , **student)
 print()
+
+#APPLYING FUCTIONS : To find the number of days in a month of an year:
+
+monthDays = [0,31,28,31,30,31,30,31,31,30,31,30,31]
+
+#Making a boolean type function to find weather an year is leap or not:
+#Condition for a year to be leap:
+#The year must be divisible by 4 and not divisible by 100.
+#But if an year is divisible by 100 the it also must be divisible by 400.
+def isLeap(year):
+    return (year % 4 == 0) and (year % 100 != 0 or year % 400 == 0)
+
+#Fucntion to return number of days in a month of an year:
+def daysInMonths(year , month):
+    if not 1<= month <= 12:
+        return 'Invalid Month'
+
+    if month == 2 and isLeap(year):
+        return 29
+
+    return monthDays[month]
+
+print(daysInMonths(2017 , 2))
+print(daysInMonths(2020 , 2))
+print(daysInMonths(2019 , 3))
+print(daysInMonths(1500 , 2))
+print(daysInMonths(1600 , 2))
+print(daysInMonths(2018 , 4))
+print()
