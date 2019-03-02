@@ -51,3 +51,13 @@ def func5(*args , **kwargs): #args and kwargs are not keywords, they are just na
 func5('Hello' , name  = 'Pranjal' , age = '20')
 func5(4 , 5 , 'Hello' , name = 'John' , age = 24)
 print()
+
+#Now if we make a list and dictionary explicitly and pass them:
+subject = ['Physics' , 'History']
+student = {'name' : 'David' , 'age' : 23}
+func5(subject , student)
+print()
+#Here we see that it makes a list of subject and student considering them as 1 single object (they are packed).
+#Now to pass list and dictionary we need to unpack the items in them, to unpack use * and ** respectivly:
+func5(*subject , **student)
+print()
