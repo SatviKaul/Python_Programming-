@@ -55,3 +55,15 @@ print(type(today))
 #isleap takes year as an argument and returns a boolean value.
 print(calendar.isleap(2020))
 print()
+
+#OS MODULE
+import os
+#os module gives us the ability work upon the operating system
+#Used for actions like: scaning the file system, creating files, deleting files, etc.
+#To get the path/location of the current directory we are working on: getcwd() function:
+print(os.getcwd())
+print()
+
+#To get the LOCATION OF THE MODULE : Use the syntax : moduleName.__file__
+print(os.__file__)
+print()
