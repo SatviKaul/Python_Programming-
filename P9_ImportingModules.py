@@ -31,3 +31,14 @@ subjects = ['Maths' , 'Physics' , 'Chemistry' , 'Biology']
 random_subject = random.choice(subjects)
 print(random_subject)
 print()
+
+#MATH MODULE:
+import math
+#Function to convert degrees to radians:
+r = math.radians(90)
+print(r)
+#Fucntion to find trignometric results:
+print(math.sin(r))
+print(math.cos(r)) #Gives a very small value as cos(pi/2) = 0
+print(math.tan(r)) #Gives a very large value as tan(pi/2) = infinity.
+print()
