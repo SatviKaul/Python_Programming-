@@ -42,3 +42,16 @@ print(math.sin(r))
 print(math.cos(r)) #Gives a very small value as cos(pi/2) = 0
 print(math.tan(r)) #Gives a very large value as tan(pi/2) = infinity.
 print()
+
+#DATE TIME and CALENDAR MODULE:
+import datetime
+import calendar
+#To Find today's date: today() method of datetime.date
+#today() return's the current system date which is of type : <class 'datetime.date'>
+today = datetime.date.today()
+print(today)
+print(type(today))
+#To find wheather an year is leap or not: isleap() method of calendar module
+#isleap takes year as an argument and returns a boolean value.
+print(calendar.isleap(2020))
+print()
