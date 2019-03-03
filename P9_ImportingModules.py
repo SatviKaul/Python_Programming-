@@ -14,3 +14,20 @@ fn.func() #Using func of P8_Functions.
 #Now if don't want to import the whole program , only func() and func2() :
 #We write : from P8_Functions import func as f1,func2 as f2
 #If we write : from P8_Functions import * :It will import everything
+
+#Now when we import where does python check for the file :
+import sys #We can get the list of location using this module.
+print(sys.path) #This gives us the list of locatons where python searches into.
+print()
+#Now if we want to import our module from a loaction other than that mentioned in sys.path then:
+#1.Add the location manualy: using the append() method on sys.path.
+sys.path.append('/Users/pranjalkandhari/Desktop/Temp')
+#2.Change the python environment variable.
+
+#RANDOM MODULE:
+import random
+#To get a random value from a given list: choice() method
+subjects = ['Maths' , 'Physics' , 'Chemistry' , 'Biology']
+random_subject = random.choice(subjects)
+print(random_subject)
+print()
