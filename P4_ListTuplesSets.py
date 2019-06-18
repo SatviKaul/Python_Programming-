@@ -22,6 +22,17 @@ print(subjects[-3]) #Third Last
 print(subjects[-4]) #Forth last or 0th element in this case.
 print()
 
+#CREATING LIST USNG LOOP:
+#Use the element to to entered with the for loop to iterate
+listByLoop = [0 for i in range(0,10)]
+print(listByLoop)
+listByLoop2 = [i for i in range(0,10)]
+print(listByLoop2)
+stringForLooping = "Hello"
+listByLoop3 = [i for i in stringForLooping]
+print(listByLoop3)
+print()
+
 #SLICING
 #We can also access a range of values at index between range i to j (including i and excluding j)
 print(subjects[0:2])
