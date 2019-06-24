@@ -90,3 +90,23 @@ print(daysInMonths(1500 , 2))
 print(daysInMonths(1600 , 2))
 print(daysInMonths(2018 , 4))
 print()
+
+#Scope of a variable: 
+#Python has 2 types of scope : Local and global (simple)
+#Local : variables defined inside the fucntion
+#Global : varialbles defined outside the funtion
+def f1():
+    a1 = 15
+    print("a1 is ",a1)
+a1 = 20
+f1()
+print("a1 is ",a1)
+#Here we can access the global variable but can't change it as a new variable is created.
+#To change:
+def f2():
+    global a2
+    a2 = 4
+    print("a2 is ",a2)
+a2 = 5
+f2()
+print("a1 is ",a2)
