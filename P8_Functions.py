@@ -110,3 +110,14 @@ def f2():
 a2 = 5
 f2()
 print("a1 is ",a2)
+
+#Variable length input for a fucntion:
+#We can use default arguments to increase number of input arguments
+#But to give say 50 arguments we need to create 50 varibles
+#So we use:
+def sum1(a,b,*more): #*more creates a tuple of all the other arguments.
+    ans = a+b
+    for i in more:
+        ans+=i
+    return ans
+print(sum1(4,5,6,9,10))
